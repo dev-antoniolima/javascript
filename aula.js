@@ -52,7 +52,7 @@ let produto = {
 console.log(produto);
 //-------------------------------//
 
-// (4) - Arrays //
+// (5) - Arrays //
 let familia = [26, 45, 50, 17]
 console.log(familia.length);
 console.log(familia[2]);
