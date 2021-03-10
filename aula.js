@@ -134,6 +134,19 @@ console.log(valorTecladoGamer);
 
 
 
+// 8.3 Operadores de Igualdade://
+
+// Igualdade estrita
+console.log ( 1 === 1); //Compração de valor e tipo
+console.log ( '1' === 1); // Tipo diferente
+
+//Igualdade solta
+console.log( 1 == 1 ); // Comparar valor, converte para mesmo tipo.
+console.log( '1' == 1); 
+/////////////////////////////////////////////////
+
+
+
 
 
 
