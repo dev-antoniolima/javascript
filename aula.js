@@ -6,6 +6,8 @@
 // console.log(idade,nome,profissao);
 // //-------------------------------//
 
+
+
 // // (2) - Tipos Primitivos //
 // let nome = "Rafael"; //string literal = letras e números juntos.
 // let idade = 25; //number = valor númeral.
@@ -13,6 +15,8 @@
 // let sobrenome: undefined; //Undefined.
 // let corSelecionado = null // Resetar Valor.
 // //-------------------------------//
+
+
 
 // // (3) - Tipagem Dinâmica //
 // let nome = "Rafael"; //typeof = string
@@ -22,6 +26,8 @@
 // let corSelecionado = null //typeof = object
 // //Javascript identifica o tipo de variável sem a necessidade de especificar-la.//
 // //-------------------------------//
+
+
 
 // (4) - Objetos //
 let pessoa = { 
@@ -52,6 +58,8 @@ let produto = {
 console.log(produto);
 //-------------------------------//
 
+
+
 // (5) - Arrays //
 let familia = [26, 45, 50, 17]
 console.log(familia.length);
@@ -60,6 +68,8 @@ console.log(familia[2]);
 
 //Array: Conjunto de dados que pode ser acessado por um índice.
 //-------------------------------//
+
+
 
 // (6) - Funções //
 let corSite = "Azul";
@@ -74,7 +84,8 @@ console.log(corSite);
 //-------------------------------//
 
 
-// (6) - Tipos de Funções //
+
+// (7) - Tipos de Funções //
 
 // Realiza uma tarefa e não retorna nada.
 function dizerNome(){
@@ -90,4 +101,47 @@ function MultiplicarPorDois(valor){
 
 let resultado = MultiplicarPorDois(5);
 console.log(resultado);
+//-------------------------------//
+
+
+
+// (8) - Operadores Lógicos //
+
+// 8.1 Operadores Aritméticos (Matemáticos)://
+let salario = 100;
+
+console.log(salario + salario); //Adição//
+console.log(salario - salario); //Subtração//
+console.log(salario * salario); //Multiplicação//
+console.log(salario / salario); //Divisão//
+console.log(salario ** salario); //Exponencial//
+
+let idade = 18;
+
+console.log(idade); 
+console.log(++idade); //Incrementação(adiciona 1)
+
+console.log(idade); 
+console.log(idade--); //Decrementar(subtrai 1)
+
+
+// 8.2 Operadores de Atribuição://
+let valorTecladoGamer = 100; // (=) = atribuição 
+valorTecladoGamer += valorTecladoGamer; // valorTecladoGamer = valorTecladoGamer + valorTecladoGamer;
+valorTecladoGamer -= valorTecladoGamer; // valorTecladoGamer = valorTecladoGamer - valorTecladoGamer;  
+console.log(valorTecladoGamer);
+/////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+// Operadores de Comparação
+// Operadores Bitwise
+
+
+
 //-------------------------------//
