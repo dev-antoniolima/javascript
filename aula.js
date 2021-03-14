@@ -145,16 +145,13 @@ console.log( 1 == 1 ); // Comparar valor, converte para mesmo tipo.
 console.log( '1' == 1); 
 /////////////////////////////////////////////////
 
+// 8.4 Operador Ternário://
 
-
-
-
-
-
+let pontos = 100;
+let tipo = pontos > 100 ? 'premim' : 'comum'; // comparação (if)
+console.log(tipo);
 
 // Operadores de Comparação
 // Operadores Bitwise
-
-
 
 //-------------------------------//
