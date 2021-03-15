@@ -215,12 +215,6 @@ console.log("Boa noite");
 }
 
 
-
-
-
-
-
-
 //Switch .. case
 
 let permissao; // comum, gerente, diretor
@@ -244,7 +238,20 @@ switch(permissao) {
 }
 
 
+// Laço/Loop For
 
+// 1.For
+
+for(let i = 0;i < 5;){
+    console.log("Estou aprendendo", i);
+}
+
+
+
+// 2.While
+// 3.Do..while
+// 4.For..In
+// 5.For..of
 
 
 
