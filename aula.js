@@ -242,15 +242,30 @@ switch(permissao) {
 
 // 1.For
 
-for(let i = 0;i < 5; i++){
-    console.log("Estou aprendendo!", i);
-}
+// for(let i = 0;i < 5; i++){
+//     console.log("Estou aprendendo!", i);
+// }
 
 // 2.While
+// let i = 5;
 
-
+// while (i >= 1){
+//     if(i % 2 !== 0){
+//         console.log(i);
+//     }
+//     i--;
+// }
 
 // 3.Do..while
+let i = 0;
+do {
+    console.log('Digitando!');
+i++;
+} while ( i < 10)
+
+
+
+
 // 4.For..In
 // 5.For..of
 
