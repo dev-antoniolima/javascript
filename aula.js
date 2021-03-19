@@ -259,12 +259,9 @@ switch(permissao) {
 // 3.Do..while
 let i = 0;
 do {
-    console.log('Digitando!');
+    console.log('Digitando!',i);
 i++;
 } while ( i < 10)
-
-
-
 
 // 4.For..In
 // 5.For..of
