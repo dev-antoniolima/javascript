@@ -257,13 +257,32 @@ switch(permissao) {
 // }
 
 // 3.Do..while
-let i = 0;
-do {
-    console.log('Digitando!',i);
-i++;
-} while ( i < 10)
+// let i = 0;
+// do {
+//     console.log('Digitando!',i);
+// i++;
+// } while ( i < 10)
 
 // 4.For..In
+
+const pessoa = {
+    nome: "Antonio",
+    idade: 22
+};
+
+//key-values = chave/valor
+for(let chave in pessoa) {
+    console.log(chave,pessoa.nome);
+}
+
+const cores = ['Vermelho', 'Azul', 'Verde'];
+
+for (let indice in cores){
+    console.log(indice,cores[indice]);
+}
+
+
+
 // 5.For..of
 
 
