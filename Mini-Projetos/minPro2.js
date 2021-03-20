@@ -3,10 +3,10 @@
 // ? = se condição for verdadeira
 // : = se condição for falsa
 
-let valorMaior = max(5,9)
+let valorMaior = max(5,10)
 console.log(valorMaior);
 
 function max(valor1,valor2) {
-   return valor1 > valor2 ? numero1 : numero2 ;
+   return valor1 > valor2 ? valor1 : valor2 ;
 }
 
