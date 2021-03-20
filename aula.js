@@ -265,28 +265,36 @@ switch(permissao) {
 
 // 4.For..In
 
-const pessoa = {
-    nome: "Antonio",
-    idade: 22
-};
+// const pessoa = {
+//     nome: "Antonio",
+//     idade: 22
+// };
 
-//key-values = chave/valor
-for(let chave in pessoa) {
-    console.log(chave,pessoa.nome);
-}
+// //key-values = chave/valor
+// for(let chave in pessoa) {
+//     console.log(chave,pessoa.nome);
+// }
 
-const cores = ['Vermelho', 'Azul', 'Verde'];
+//  const cores = ['Vermelho', 'Azul', 'Verde'];
 
-for (let indice in cores){
-    console.log(indice,cores[indice]);
-}
+// for (let indice in cores){
+//     console.log(indice,cores[indice]);
+// }
 
 
 
 // 5.For..of
+const cores = ['Vermelho', 'Azul', 'Verde'];
 
+for(let cor of cores){
+console.log(cor);
+}
 
+const marcas = ['nestle', 'fiat', 'globo'];
 
+for(let marca of marcas){
+console.log(marca);
+}
 
 
 //-------------------------------//
