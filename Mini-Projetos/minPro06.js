@@ -3,7 +3,7 @@
 // Criar um método para ler propriedades de um objeto e
 // exibir somente as propriedades do tipo string que estão nesse objeto 
 
-const filmes = {
+const filme = {
     titulo: 'Kong',
     ano: 2021,
     diretor: 'Diretor',
@@ -14,8 +14,8 @@ const filmes = {
 exibirPropriedades(filme);
 
 function exibirPropriedades(obj) {
-    for (propriedade in obj)
+    for (prop in obj)
     if(typeof obj[prop] === 'string')
-    console.log(prop.obj[prop])
+    console.log(prop,obj[prop])
 
 }
