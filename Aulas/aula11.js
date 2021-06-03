@@ -1,9 +1,7 @@
 // (11) - Constructor Functions //
 
-
-
 // Pascal Case - UmDoisTresQuatro
-function celular(marcaCelular, tamanhoTela, capacidadeBateria){
+function Celular(marcaCelular, tamanhoTela, capacidadeBateria){
     this.marcaCelular = marcaCelular,
     this.tamanhoTela = tamanhoTela,
     this.capacidadeBateria = capacidadeBateria,
@@ -12,3 +10,6 @@ function celular(marcaCelular, tamanhoTela, capacidadeBateria){
         console.log("Fazendo Ligação...")
     }
 }
+
+const celular = new Celular ('asus', '5.5', '500mah');
+console.log(celular);
