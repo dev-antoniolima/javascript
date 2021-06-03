@@ -1,5 +1,6 @@
 // (10) - Factory Functions //
 
+// camelCase umDoisTresQuatro
 function gerarProduto(marca, peso, preco, local) {
     return {
         marca,
