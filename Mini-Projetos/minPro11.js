@@ -1,4 +1,4 @@
-// Mini Projeto (10) - Montador de Endereços //
+// Mini Projeto (11) - Montador de Endereços //
 
 // Criar um objeto endereço que contém
 // - RUA
@@ -14,5 +14,7 @@ let enderecoCompleto = {
 
 function exibirEndereco(endereco){
     for(let chave in endereco){
-        console.log(chave);    }
+        console.log(chave, endereco[chave]);    }
 }
+
+exibirEndereco(endereco);
